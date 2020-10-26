@@ -1,6 +1,6 @@
 dist: focal
 language: node_js
 node_js:
-  - latest
+  - node
 script:
   - node -e "console.log('cli test')"
