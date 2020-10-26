@@ -3,4 +3,4 @@ language: node_js
 node_js:
   - node
 script:
-  - node -e "console.log('We can trigger a build on the re-created repo after deleting it on GH Enterprise')"
+  - node -e "console.log('Testing org-repo deletion/re-creation/re-activation issue')
